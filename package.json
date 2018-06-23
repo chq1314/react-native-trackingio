@@ -1,0 +1,25 @@
+{
+  "name": "react-native-trackingio",
+  "version": "1.0.0",
+  "description": "TrackingIO Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chq1314/react-native-trackingio.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "trackingio"
+  ],
+  "author": "blackchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chq1314/react-native-trackingio/issues"
+  },
+  "homepage": "https://github.com/chq1314/react-native-trackingio"
+}
