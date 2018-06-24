@@ -1,20 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.reactnative.modules.trackingio">
 
-    //网络访问权限
-    <uses-permissionandroid:name="android.permission.INTERNET"/>
-    //获取网络状态权限
-    <uses-permissionandroid:name="android.permission.ACCESS_NETWORK_STATE"/>
-    //获取wifi状态权限
-    <uses-permissionandroid:name="android.permission.ACCESS_WIFI_STATE"/>
-    //读取手机IMEI的权限，须在获得此权限后再初始化sdk，如果缺少此权限，会以AndroidID作为设备唯一标识符
-    <uses-permissionandroid:name="android.permission.READ_PHONE_STATE"/>
-    //获取gps的权限
-    <uses-permissionandroid:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permissionandroid:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    //读写sd卡的权限
-    <uses-permissionandroid:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permissionandroid:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"  />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"  />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"  />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"  />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"  />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"  />
 
     <application
         android:allowBackup="true"
