@@ -1,5 +1,6 @@
 # react-native-trackingio
 React Native的TrackingIO插件
+
 ## 如何安装
 
 ### 首先安装插件
@@ -19,7 +20,7 @@ react-native link
 在你工程的`AppDelegate.m`文件中添加如下代码：
 
 ```
-#import "RCTTalkingData.h"
+#import "RCTTrackingIO.h"
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -58,3 +59,7 @@ if (trackingIO !== undefined && trackingIO !== null) {
 #### trackingIO.setPayment(transactionId, paymentType, currencyType, currencyAmount)
 #### trackingIO.setEvent(eventName)
 #### trackingIO.setOrder(transactionId, currencyType, currencyAmount)
+
+
+##参考
+http://doc.trackingio.com/sdkwen-dang.html
