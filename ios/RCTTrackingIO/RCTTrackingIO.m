@@ -33,18 +33,17 @@ RCT_EXPORT_MODULE(TrackingIOAPI)
 
 RCT_EXPORT_METHOD(setRegisterWithAccountID:(NSString *)account)
 {
-    [TrackingsetRegisterWithAccountID:account];
+    [Tracking setRegisterWithAccountID:account];
 }
 
 RCT_EXPORT_METHOD(setLoginWithAccountID:(NSString *)account)
 {
-    [TrackingsetLoginWithAccountID:account];
+    [Tracking setLoginWithAccountID:account];
 }
 
 RCT_EXPORT_METHOD(setOrder:(NSString *)transactionId currentType:(NSString *)currencyType currencyAmount:(float)currencyAmount)
 {
-    [Tracking setOrder:transactionId currentType:(NSString *) currencyAmount: currencyAmount];
-}
+    [Tracking setOrder:transactionId currentType:currencyType currencyAmount:currencyAmount];}
 
 RCT_EXPORT_METHOD(setPayment:(NSString *)transactionId paymentType:(NSString*)paymentType currentType:(NSString *)currencyType currencyAmount:(float)currencyAmount)
 {

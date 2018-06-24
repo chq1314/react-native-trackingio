@@ -10,6 +10,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;
 import com.facebook.react.bridge.ReadableType;
+import com.reyun.tracking.sdk.Tracking;
 
 import java.util.HashMap;
 
@@ -29,15 +30,15 @@ public class TrackingIOModule extends ReactContextBaseJavaModule {
 
     private static Boolean registered = false;
 
-    public static void register(Context context, String appID, String channelID, boolean reportExceptions) {
+    public static void register(Context context, String appID, String channelID) {
         if (!registered) {
-                
+
             Tracking.initWithKeyAndChannelId(context, appID, channelID);
 
             registered = true;
         }
     }
-    
+
     @Override
     public void initialize() {
         super.initialize();
@@ -55,7 +56,7 @@ public class TrackingIOModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void setLoginSuccessBusiness(String accountId){
-        Tracking.setLoginSuccessBusiness(String accountId);
+        Tracking.setLoginSuccessBusiness(accountId);
     }
 
     @ReactMethod

@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BF1C24620DDD9CF005DA694 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C24520DDD9CF005DA694 /* Security.framework */; };
-		1BF1C24820DDD9D7005DA694 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C24720DDD9D7005DA694 /* CoreTelephony.framework */; };
-		1BF1C24A20DDD9DE005DA694 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C24920DDD9DE005DA694 /* AdSupport.framework */; };
-		1BF1C24C20DDD9F6005DA694 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C24B20DDD9F6005DA694 /* libsqlite3.tbd */; };
-		1BF1C24F20DDDAD5005DA694 /* ReYunTracking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C24D20DDDAD5005DA694 /* ReYunTracking.a */; };
-		917043351C439F4C0028747B /* RCTTrackingIO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 917043341C439F4C0028747B /* RCTTrackingIO.h */; };
-		917043371C439F4C0028747B /* RCTTrackingIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 917043361C439F4C0028747B /* RCTTrackingIO.m */; };
+		1BF1C85120DF4B34005DA694 /* RCTTrackingIO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BF1C84C20DF4B1B005DA694 /* RCTTrackingIO.h */; };
+		1BF1C85320DF4B36005DA694 /* ReYunTracking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C85020DF4B1B005DA694 /* ReYunTracking.a */; };
+		1BF1C85420DF4B38005DA694 /* RCTTrackingIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1C84D20DF4B1B005DA694 /* RCTTrackingIO.m */; };
+		1BF1C8A420DF6EF0005DA694 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8A320DF6EF0005DA694 /* Security.framework */; };
+		1BF1C8A620DF6EF7005DA694 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8A520DF6EF7005DA694 /* CoreTelephony.framework */; };
+		1BF1C8CB20DF723E005DA694 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8A720DF6EFE005DA694 /* AdSupport.framework */; };
+		1BF1C8CC20DF7243005DA694 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8A920DF6F03005DA694 /* SystemConfiguration.framework */; };
+		1BF1C8CD20DF7249005DA694 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8AB20DF6F09005DA694 /* CoreMotion.framework */; };
+		1BF1C8CE20DF724E005DA694 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF1C8AD20DF6F0E005DA694 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,22 +25,25 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				917043351C439F4C0028747B /* RCTTrackingIO.h in CopyFiles */,
+				1BF1C85120DF4B34005DA694 /* RCTTrackingIO.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1BF1C24520DDD9CF005DA694 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		1BF1C24720DDD9D7005DA694 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		1BF1C24920DDD9DE005DA694 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		1BF1C24B20DDD9F6005DA694 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1BF1C24D20DDDAD5005DA694 /* ReYunTracking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ReYunTracking.a; sourceTree = "<group>"; };
-		1BF1C24E20DDDAD5005DA694 /* Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracking.h; sourceTree = "<group>"; };
-		917043311C439F4C0028747B /* libRCTTalkingData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTalkingData.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		917043341C439F4C0028747B /* RCTTrackingIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTrackingIO.h; sourceTree = "<group>"; };
-		917043361C439F4C0028747B /* RCTTrackingIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTrackingIO.m; sourceTree = "<group>"; };
+		1BF1C84C20DF4B1B005DA694 /* RCTTrackingIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTrackingIO.h; sourceTree = "<group>"; };
+		1BF1C84D20DF4B1B005DA694 /* RCTTrackingIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTrackingIO.m; sourceTree = "<group>"; };
+		1BF1C84F20DF4B1B005DA694 /* Tracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracking.h; sourceTree = "<group>"; };
+		1BF1C85020DF4B1B005DA694 /* ReYunTracking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ReYunTracking.a; sourceTree = "<group>"; };
+		1BF1C8A320DF6EF0005DA694 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BF1C8A520DF6EF7005DA694 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1BF1C8A720DF6EFE005DA694 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1BF1C8A920DF6F03005DA694 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BF1C8AB20DF6F09005DA694 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1BF1C8AD20DF6F0E005DA694 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1BF1C8AF20DF6F16005DA694 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		917043311C439F4C0028747B /* libRCTTrackingIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTrackingIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,24 +51,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF1C24C20DDD9F6005DA694 /* libsqlite3.tbd in Frameworks */,
-				1BF1C24F20DDDAD5005DA694 /* ReYunTracking.a in Frameworks */,
-				1BF1C24A20DDD9DE005DA694 /* AdSupport.framework in Frameworks */,
-				1BF1C24820DDD9D7005DA694 /* CoreTelephony.framework in Frameworks */,
-				1BF1C24620DDD9CF005DA694 /* Security.framework in Frameworks */,
+				1BF1C8CE20DF724E005DA694 /* CoreLocation.framework in Frameworks */,
+				1BF1C8CD20DF7249005DA694 /* CoreMotion.framework in Frameworks */,
+				1BF1C8CC20DF7243005DA694 /* SystemConfiguration.framework in Frameworks */,
+				1BF1C8CB20DF723E005DA694 /* AdSupport.framework in Frameworks */,
+				1BF1C8A420DF6EF0005DA694 /* Security.framework in Frameworks */,
+				1BF1C8A620DF6EF7005DA694 /* CoreTelephony.framework in Frameworks */,
+				1BF1C85320DF4B36005DA694 /* ReYunTracking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BF1C24420DDD9CF005DA694 /* Frameworks */ = {
+		1BF1C84B20DF4B1B005DA694 /* RCTTrackingIO */ = {
 			isa = PBXGroup;
 			children = (
-				1BF1C24B20DDD9F6005DA694 /* libsqlite3.tbd */,
-				1BF1C24920DDD9DE005DA694 /* AdSupport.framework */,
-				1BF1C24720DDD9D7005DA694 /* CoreTelephony.framework */,
-				1BF1C24520DDD9CF005DA694 /* Security.framework */,
+				1BF1C84C20DF4B1B005DA694 /* RCTTrackingIO.h */,
+				1BF1C84D20DF4B1B005DA694 /* RCTTrackingIO.m */,
+			);
+			path = RCTTrackingIO;
+			sourceTree = "<group>";
+		};
+		1BF1C84E20DF4B1B005DA694 /* TrackingIOSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1C84F20DF4B1B005DA694 /* Tracking.h */,
+				1BF1C85020DF4B1B005DA694 /* ReYunTracking.a */,
+			);
+			path = TrackingIOSDK;
+			sourceTree = "<group>";
+		};
+		1BF1C85220DF4B36005DA694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1C8AF20DF6F16005DA694 /* libsqlite3.tbd */,
+				1BF1C8AD20DF6F0E005DA694 /* CoreLocation.framework */,
+				1BF1C8AB20DF6F09005DA694 /* CoreMotion.framework */,
+				1BF1C8A920DF6F03005DA694 /* SystemConfiguration.framework */,
+				1BF1C8A720DF6EFE005DA694 /* AdSupport.framework */,
+				1BF1C8A520DF6EF7005DA694 /* CoreTelephony.framework */,
+				1BF1C8A320DF6EF0005DA694 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,45 +99,27 @@
 		917043281C439F4C0028747B = {
 			isa = PBXGroup;
 			children = (
-				917043671C439FC20028747B /* TrackingIOSDK */,
-				917043331C439F4C0028747B /* RCTTrackingIO */,
+				1BF1C84B20DF4B1B005DA694 /* RCTTrackingIO */,
+				1BF1C84E20DF4B1B005DA694 /* TrackingIOSDK */,
 				917043321C439F4C0028747B /* Products */,
-				1BF1C24420DDD9CF005DA694 /* Frameworks */,
+				1BF1C85220DF4B36005DA694 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		917043321C439F4C0028747B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				917043311C439F4C0028747B /* libRCTTalkingData.a */,
+				917043311C439F4C0028747B /* libRCTTrackingIO.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		917043331C439F4C0028747B /* RCTTrackingIO */ = {
-			isa = PBXGroup;
-			children = (
-				917043341C439F4C0028747B /* RCTTrackingIO.h */,
-				917043361C439F4C0028747B /* RCTTrackingIO.m */,
-			);
-			path = RCTTrackingIO;
-			sourceTree = "<group>";
-		};
-		917043671C439FC20028747B /* TrackingIOSDK */ = {
-			isa = PBXGroup;
-			children = (
-				1BF1C24D20DDDAD5005DA694 /* ReYunTracking.a */,
-				1BF1C24E20DDDAD5005DA694 /* Tracking.h */,
-			);
-			path = TrackingIOSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		917043301C439F4C0028747B /* RCTTalkingData */ = {
+		917043301C439F4C0028747B /* RCTTrackingIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9170433A1C439F4C0028747B /* Build configuration list for PBXNativeTarget "RCTTalkingData" */;
+			buildConfigurationList = 9170433A1C439F4C0028747B /* Build configuration list for PBXNativeTarget "RCTTrackingIO" */;
 			buildPhases = (
 				9170432D1C439F4C0028747B /* Sources */,
 				9170432E1C439F4C0028747B /* Frameworks */,
@@ -119,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTTalkingData;
+			name = RCTTrackingIO;
 			productName = RCTTalkingData;
-			productReference = 917043311C439F4C0028747B /* libRCTTalkingData.a */;
+			productReference = 917043311C439F4C0028747B /* libRCTTrackingIO.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9170432C1C439F4C0028747B /* Build configuration list for PBXProject "RCTTalkingData" */;
+			buildConfigurationList = 9170432C1C439F4C0028747B /* Build configuration list for PBXProject "RCTTrackingIO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				917043301C439F4C0028747B /* RCTTalkingData */,
+				917043301C439F4C0028747B /* RCTTrackingIO */,
 			);
 		};
 /* End PBXProject section */
@@ -160,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917043371C439F4C0028747B /* RCTTrackingIO.m in Sources */,
+				1BF1C85420DF4B38005DA694 /* RCTTrackingIO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +264,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TalkingDataSDK",
+					"$(PROJECT_DIR)/TrackingIOSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,6 +279,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TalkingDataSDK",
+					"$(PROJECT_DIR)/TrackingIOSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9170432C1C439F4C0028747B /* Build configuration list for PBXProject "RCTTalkingData" */ = {
+		9170432C1C439F4C0028747B /* Build configuration list for PBXProject "RCTTrackingIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				917043381C439F4C0028747B /* Debug */,
@@ -287,7 +299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9170433A1C439F4C0028747B /* Build configuration list for PBXNativeTarget "RCTTalkingData" */ = {
+		9170433A1C439F4C0028747B /* Build configuration list for PBXNativeTarget "RCTTrackingIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9170433B1C439F4C0028747B /* Debug */,

@@ -17,7 +17,7 @@ public class TrackingIOPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.asList(new NativeModule[]{
-                new TalkingDataModule(reactContext),
+                new TrackingIOModule(reactContext),
         });
     }
 
