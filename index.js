@@ -3,14 +3,14 @@
  */
 import { NativeModules } from 'react-native';
 
-const nativeModule = NativeModules.TrackingIO;
+const nativeModule = NativeModules.TrackingIOAPI;
+
+export function setLoginWithAccountID(accountId) {
+  nativeModule.setLoginWithAccountID(accountId);
+}
 
 export function setRegisterWithAccountID(accountId) {
   nativeModule.setRegisterWithAccountID(accountId);
-}
-
-export function setLoginSuccessBusiness(accountId) {
-  nativeModule.setLoginSuccessBusiness(accountId);
 }
 
 export function setPayment(transactionId, paymentType, currencyType, currencyAmount) {

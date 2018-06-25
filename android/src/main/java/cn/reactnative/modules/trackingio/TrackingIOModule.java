@@ -55,7 +55,7 @@ public class TrackingIOModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void setLoginSuccessBusiness(String accountId){
+    public void setLoginWithAccountID(String accountId){
         Tracking.setLoginSuccessBusiness(accountId);
     }
 

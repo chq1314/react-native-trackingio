@@ -25,10 +25,6 @@ RCT_EXPORT_MODULE(TrackingIOAPI)
     dispatch_once(&onceToken, ^{
         [Tracking initWithAppKey:appId withChannelId:channelID];
     });
-    
-#ifdef DEBUG
-    [TalkingData setLogEnabled:YES];
-#endif
 }
 
 RCT_EXPORT_METHOD(setRegisterWithAccountID:(NSString *)account)
